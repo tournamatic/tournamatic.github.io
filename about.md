@@ -2,14 +2,14 @@
 layout: page
 title: About
 permalink: /about/
+published: true
 ---
 
-Some information about you!
+For sports tournament directors who need to organize their tournaments,
+Tournamatic provides an easy and reliable way to deal with tournament registrations, scheduling, publishing the results and more.
+Unlike existing tournament software in the market, Tournamatic does not have an upfront cost and does not need to be installed on a device.
+Tournamatic also facilitates social interaction among participants and simplifies the management of entire tournament lifecycle.
 
-### More Information
+Contact US
 
-A place to include any other types of information that you'd like to include about yourself. 
-
-### Contact me
-
-[email@domain.com](mailto:email@domain.com)
+[info@tournamatic.com](mailto:info@tournamatic.com)

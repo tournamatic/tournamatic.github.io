@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 ---
 
 ## Finally, Tournament Software That Makes Things Easier

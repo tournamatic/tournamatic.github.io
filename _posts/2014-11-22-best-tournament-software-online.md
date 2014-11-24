@@ -6,7 +6,7 @@ published: true
  
 ### Running a tournament from start to finish doesn’t have to consume your life.
 
-![](/images/site-homepage)
+![](/images/site-homepage.png)
 
 [Tournamatic](https://www.tournamatic.com "Tournamatic") is a tournament software that simplifies the management of entire tournament lifecycle. Unlike other tournament software on the market, you don’t have to download anything or pay an upfront cost. Tournament organizers don't need to acquire a service for registrations and a separate service for setting up the draws and a third one for dealing with results. It's all there just a login away.
 Here’s how tournamatic will make your life easier.

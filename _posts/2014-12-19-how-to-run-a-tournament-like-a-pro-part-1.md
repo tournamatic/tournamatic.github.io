@@ -1,0 +1,23 @@
+---
+published: false
+---
+
+## How to run a tournament like a pro
+
+### Part I :: Pick a Date
+
+Unless you are running an annual tournament like a Labour day weekend or New year's classic, you need to pick an start date and an end date for your tournament and picking the right dates for your tournament is probably the most important decision you make in terms of achieving the highest level of engagement from your participants.
+I am going to share a few tips here regarding the tournament dates so that before you start circling the days on your calendar you have a check-list to run through.
+
+
+
+1. Be aware of competing tournaments, School schedules, Religious holidays and cultural events to maximize the interest and attendance. We are trying to provide a service on [tournamatic](https://www.tournamatic.com "tournamatic") for tournament organizers to find out about the local tournaments that are scheduled for any particular dates.
+
+2. For any possible dates, make sure the venue is available and it is not booked for any other event. Give yourself at least a couple of hours (that number varies based on the size of your tournament) before the start to welcome the participants and run the opening ceremonies (if applicable). Similarly make sure you give yourself the time you need after your last match of the tournament to conclude the closing ceremonies.
+
+3. If you have a list of invitees, ask them about their availability for the given dates. An easy way to do that is to run a [doodle](http://doodle.com "doodle") survey with all the possible dates and find the most popular date. Another advantage of running a survey is that you may be reminded of special events in any of the given date options by your participants, that you were not aware of. For example here is a quote I received after running a survey for a high school basketball tournament:
+"I believe that the weekend of Feb 13 are the South Island Championships that a couple of teams in our division will be competing in."
+
+I would love to hear about the items on your check-list that I might have missed, in the comments below.
+
+Stay tuned for the next episodes of **Running a tournament like a pro**.

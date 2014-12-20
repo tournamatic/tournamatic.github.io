@@ -6,9 +6,11 @@ published: true
 
 ### Part I :: Pick a Date
 
-Unless you are running an annual tournament like a Labour day weekend or New year's classic, you need to pick an start date and an end date for your tournament and picking the right dates for your tournament is probably the most important decision you make in terms of achieving the highest level of engagement from your participants.
+Unless you are running an annual tournament like a Labour day weekend or New year's classic, you need to pick an start-date and an end-date for your tournament. 
+Picking the right dates for your tournament is extremely important, especially if you are planning to increase the participation level.
 I am going to share a few tips here regarding the tournament dates so that before you start circling the days on your calendar you have a check-list to run through.
 
+![](/images/tournament-calendar.png)
 
 
 1. Be aware of competing tournaments, School schedules, Religious holidays and cultural events to maximize the interest and attendance. We are trying to provide a service on [tournamatic](https://www.tournamatic.com "tournamatic") for tournament organizers to find out about the local tournaments that are scheduled for any particular dates.

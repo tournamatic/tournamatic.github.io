@@ -10,7 +10,7 @@ Unless you are running an annual tournament like a Labour day weekend or New yea
 Picking the right dates for your tournament is extremely important, especially if you are planning to increase the participation level.
 I am going to share a few tips here regarding the tournament dates so that before you start circling the days on your calendar you have a check-list to run through.
 
-![](/images/tournament-calendar.png)
+![](/images/tournament_calendar.png)
 
 
 1. Be aware of competing tournaments, school schedules, religious holidays and cultural events to maximize the interest and attendance. We really hope that as [tournamatic](https://www.tournamatic.com "tournamatic") grows as a popular platform, it can become a reference point for discovering the competing tournaments.

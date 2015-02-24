@@ -35,7 +35,7 @@ It is highly recommended that you pitch your value proposition to friends and fa
 It is important to keep track of your fund raising campaign.
 A simple spreadsheet is in most cases more than sufficient to record the prospects and the dates you contacted your target company, who you contacted, how (phone, email) and follow-up dates. 
 
-  
+
 ### EMAIL CAMPAIGN
  
 It is important to make your emails count. Here are a few things to remember before you write your first sponsorship request emails.

@@ -2,9 +2,7 @@
 published: true
 ---
 
-## How to run a tournament like a pro
-
-### Part II :: Find Sponsors
+## Part II :: Find Sponsors
 
 Maybe you want to get sponsorships and have tried before without success. Maybe you want to get companies to support your tournament, but don't have experience landing deals. Getting a business to sponsor your next tournament is much easier than you think.
 

@@ -8,7 +8,6 @@ Maybe you want to get sponsorships and have tried before without success. Maybe 
 
 You don't have to be lucky or anyone special, it's putting in effort and using techniques that actually work.
 
-![](/images/sponsorship.jpg)
 
 ### TIMING
 It is important to plan ahead for your fund raising efforts for your tournament. Large companies due to volume of sponsorship requests require 4 to 5 months notice to provide you with an answer.

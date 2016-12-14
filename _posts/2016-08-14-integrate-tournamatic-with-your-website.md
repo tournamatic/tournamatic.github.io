@@ -1,6 +1,9 @@
 ---
+layout: post
+title: Tournamatic
 published: true
 ---
+
 
 ## Add the new Tournamatic widget to your website!
 

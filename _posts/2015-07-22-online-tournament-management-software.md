@@ -1,6 +1,9 @@
 ---
+layout: post
+title: Tournamatic
 published: true
 ---
+
 
 ## The benefits of an online tournament management software
 

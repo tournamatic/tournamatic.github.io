@@ -1,4 +1,6 @@
 ---
+layout: post
+title: Tournamatic
 published: true
 ---
 

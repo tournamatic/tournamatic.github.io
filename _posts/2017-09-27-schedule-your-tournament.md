@@ -19,7 +19,7 @@ First off, we assume that:
 
   2. All the participants have signed up.
 
-  3. Registration deadline has arrived and there will be no more participant entering the tournament.
+  3. Registration deadline has arrived and there will be no more participants entering the tournament.
 
 To make sure that our assumptions are correct, we need to first log in to Tournamatic.com.
 

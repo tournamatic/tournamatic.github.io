@@ -1,7 +1,8 @@
 ---
 layout: post
-title: Tournamatic
+title: Integrate Tournamatic within your website
 published: true
+description: Integrate your website with tournamatic.com and represent your tournaments like a pro.
 ---
 
 

@@ -13,16 +13,16 @@
     <meta property="og:title" content="{{ page.title }}" />
     <meta property="og:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}" />
     <meta property="og:type" content="article" />
-    <meta property="og:url" content="http://blog.tournamatic.com" />
+    <meta property="og:url" content="{{ site.baseurl }}" />
     <meta property="article:section" content="Sports" />
     <meta property="article:tag" content="Sports,Tournament,Game,Competition,Match,Team" />
-    <meta property="og:image" content="http://blog.tournamatic.com/images/tournament_calendar.png" />
+    <meta property="og:image" content="{{ site.baseurl }}/images/tournament_calendar.png" />
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:site" content="@tournamatic" />
     <meta name="twitter:creator" content="@adaplex" />
     <meta name="twitter:title" content="{{ page.title }}" />
     <meta name="twitter:description" content="TOURNAMATIC - {% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
-    <meta name="twitter:image" content="http://blog.tournamatic.com/images/tournament_calendar.png">
+    <meta name="twitter:image" content="{{ site.baseurl }}/images/tournament_calendar.png">
     
     <!--[if lt IE 9]>
       <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
@@ -42,17 +42,17 @@
         "@context": "http://schema.org",
         "@type": "Blog",
         "keywords": "Sports Tournament Fun Competition",
-        "url": "http://blog.tournamatic.com",
+        "url": "{{ site.baseurl }}",
         "mainEntityOfPage": {
           "@type": "WebPage",
-          "@id": "https://blog.tournamatic.com"
+          "@id": "{{ site.baseurl }}"
         },
         "author": {
           "@type": "Person",
           "name": "Dan Bonab",
           "sameAs": [
             "https://twitter.com/innopal",
-            "https://github.com/innopal",
+            "https://github.com/innopal"
           ]
         }
       }

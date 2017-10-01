@@ -4,6 +4,7 @@ title: A tournament's life-cycle
 published: true
 description: Managing a tournament from inception to completion
 category: Sports
+tags: tournament lifecycle planning
 imageUrl: http://blog.tournamatic.com/images/tournament_cycle_hell.gif
 ---
 

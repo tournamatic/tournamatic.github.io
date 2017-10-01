@@ -1,5 +1,11 @@
 ---
+layout: post
+title: Pick a proper date for your tournament
 published: true
+description: You may want to pick a proper date for your tournament so that you can increase participation
+category: Sports
+tags: tournament management time-management
+imageUrl: http://blog.tournamatic.com/images/tournament_calendar.png
 ---
 
 ## How to run a tournament like a pro

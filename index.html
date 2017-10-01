@@ -22,12 +22,12 @@ title: Tournamatic
         include structdata.html
         headline=post.title
         genre=post.category
-        keywords=post.keywords
+        keywords=post.tags
         content=post.content
         link=post.url
         date=post.date
         imageUrl=post.imageUrl
-        baseUrl=site.baseurl
+        baseUrl=site.url
       %}
       
       <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>

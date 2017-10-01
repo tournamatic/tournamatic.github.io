@@ -1,5 +1,11 @@
 ---
+layout: post
+title: Online tournament management software
 published: true
+description: The benefits of an online tournament management software
+category: Sports
+tags: tournament management benefit
+imageUrl: http://blog.tournamatic.com/images/fifa_tournament_standings.jpg
 ---
 
 

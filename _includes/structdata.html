@@ -8,8 +8,9 @@
     "genre":"{{ include.category }}",
     "keywords":"{{ include.keywords }}",
     "wordCount":"{{ wordcount }}",
-    "url":"http://blog.tournamatic.com{{ include.link }}",
+    "url":"{{ include.baseUrl }}{{ include.link }}",
     "datePublished":"{{ include.date | | date: '%Y-%m-%d' }}",
+    "dateModified":"{{ include.date | | date: '%Y-%m-%d' }}",
     "author": {
         "@type": "Person",
         "name": "Dan Bonab",
@@ -19,28 +20,28 @@
         ]
     },
     "publisher":{
-        "@type": "Person",
-        "name": "Dan Bonab",
+        "@type": "Organization",
+        "name": "tournamatic",
         "sameAs": [
-            "https://twitter.com/innopal",
-            "https://github.com/innopal",
+            "https://twitter.com/tournamatic",
+            "https://github.com/tournamatic",
         ],
         "logo": {
             "@type": "ImageObject",
-            "contentUrl": "{{ include.imageUrl }}",
-            "url": "http://blog.tournamatic.com"
+            "contentUrl": "{{ include.baseUrl }}/images/logo.png",
+            "url": "https://tournamatic.com"
         }
     },
     "image":{
         "@type":"ImageObject",
-        "contentUrl":"http://blog.tournamatic.com/images/logo.png",
-        "url": "{{ include.imageUrl }}",
+        "contentUrl":"{{ include.imageUrl }}",
+        "url": "{{ include.baseUrl }}{{ include.link }}",
         "height":"450",
         "width":"1000"
     },
     "mainEntityOfPage":{
         "@type":"WebPage",
-        "@id":"http://blog.tournamatic.com{{ include.link }}"
+        "@id":"{{ include.baseUrl }}{{ include.link }}"
     },
     "articleBody":"{{ include.content | strip_html | xml_escape | normalize_whitepace | strip_newlines | strip }}"
 }

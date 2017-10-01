@@ -24,9 +24,10 @@ title: Tournamatic
         genre=post.category
         keywords=post.keywords
         content=post.content
-        link=post.permalink
+        link=post.url
         date=post.date
         imageUrl=post.imageUrl
+        baseUrl=site.baseurl
       %}
       
       <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>

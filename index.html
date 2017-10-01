@@ -5,8 +5,29 @@ title: Tournamatic
 ---
 
 <div class="posts">
+  {% assign items = "" %}
   {% for post in site.posts %}
+    {% capture list_item %}
+      {%
+          include blogListItem.html
+          index=forloop.index
+          url=post.url
+          title=post.title
+          date=post.date
+      %}
+    {% endcapture %}
+    {% assign items = items | append: list_item | append: "|||" %}  
     <article class="post">    
+      {%
+        include structdata.html
+        headline=post.title
+        genre=post.category
+        keywords=post.keywords
+        content=post.content
+        link=post.permalink
+        date=post.date
+        imageUrl=post.imageUrl
+      %}
       
       <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
       {% include share-bar.html %}
@@ -27,4 +48,5 @@ title: Tournamatic
     
   {% endfor %}
 
+  {% assign items = items | split: "|||" | join: ',' %}
 </div>

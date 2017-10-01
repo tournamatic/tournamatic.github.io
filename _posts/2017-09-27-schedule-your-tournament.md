@@ -3,6 +3,8 @@ layout: post
 title: Schedule a tournament
 published: true
 description: Schedule your tournaments like a pro
+category: Sports
+imageUrl: http://i.imgur.com/GsFPwlc.png
 ---
 
 ## Schedule a tournament

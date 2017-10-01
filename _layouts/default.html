@@ -37,6 +37,26 @@
   </head>
 
   <body>
+    <script type="application/ld+json">
+      {
+        "@context": "http://schema.org",
+        "@type": "Blog",
+        "keywords": "Sports Tournament Fun Competition",
+        "url": "http://blog.tournamatic.com",
+        "mainEntityOfPage": {
+          "@type": "WebPage",
+          "@id": "https://blog.tournamatic.com"
+        },
+        "author": {
+          "@type": "Person",
+          "name": "Dan Bonab",
+          "sameAs": [
+            "https://twitter.com/innopal",
+            "https://github.com/innopal",
+          ]
+        }
+      }
+    </script>
     <div class="wrapper-masthead">
       <div class="container">
         <header class="masthead clearfix">
@@ -66,7 +86,6 @@
         </footer>
       </div>
     </div>
-    
     {% include analytics.html %}
   </body>
 </html>

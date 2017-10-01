@@ -1,0 +1,47 @@
+{% assign wordcount = include.content | number_of_words %}
+
+<script type="application/ld+json">
+{
+    "@context":"http://schema.org",
+    "@type":"BlogPosting",
+    "headline":"{{ include.headline }}",
+    "genre":"{{ include.category }}",
+    "keywords":"{{ include.keywords }}",
+    "wordCount":"{{ wordcount }}",
+    "url":"http://blog.tournamatic.com{{ include.link }}",
+    "datePublished":"{{ include.date | | date: '%Y-%m-%d' }}",
+    "author": {
+        "@type": "Person",
+        "name": "Dan Bonab",
+        "sameAs": [
+            "https://twitter.com/innopal",
+            "https://github.com/innopal",
+        ]
+    },
+    "publisher":{
+        "@type": "Person",
+        "name": "Dan Bonab",
+        "sameAs": [
+            "https://twitter.com/innopal",
+            "https://github.com/innopal",
+        ],
+        "logo": {
+            "@type": "ImageObject",
+            "contentUrl": {{ include.imageUrl }},
+            "url": "http://blog.tournamatic.com"
+        }
+    },
+    "image":{
+        "@type":"ImageObject",
+        "contentUrl":"http://blog.tournamatic.com/images/logo.png",
+        "url": {{ include.imageUrl }},
+        "height":"450",
+        "width":"1000"
+    },
+    "mainEntityOfPage":{
+        "@type":"WebPage",
+        "@id":"http://blog.tournamatic.com{{ include.link }}"
+    },
+    "articleBody":"{{ include.content | strip_html | xml_escape | normalize_whitepace | strip_newlines | strip }}"
+}
+</script>

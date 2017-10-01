@@ -5,8 +5,8 @@ published: true
 description: Tournament software that makes organizing sports tournaments a whole lot easier
 category: Sports
 tags:
-- tournament software
-- online tournament software
+- "tournament software"
+- "online tournament software"
 imageUrl: http://blog.tournamatic.com/images/site-homepage.png
 excerpt_separator: <!--more-->
 ---

@@ -7,8 +7,8 @@ category: Sports
 tags:
 - tournament
 - scheduling
-- competition formatting
-- round robin
+- "competition formatting"
+- "round robin"
 - elimination
 - bracket
 imageUrl: http://i.imgur.com/GsFPwlc.png

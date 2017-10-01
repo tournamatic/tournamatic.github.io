@@ -10,6 +10,7 @@ Tournamatic provides an easy and reliable way to deal with tournament registrati
 Unlike existing tournament software in the market, Tournamatic does not have an upfront cost and does not need to be installed on a device.
 Tournamatic also facilitates social interaction among participants and simplifies the management of entire tournament lifecycle.
 
-Contact US
+### Contact us
 
 [info@tournamatic.com](mailto:info@tournamatic.com)
+

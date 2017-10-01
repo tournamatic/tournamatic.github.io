@@ -13,26 +13,26 @@
     <meta property="og:title" content="{{ page.title }}" />
     <meta property="og:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}" />
     <meta property="og:type" content="article" />
-    <meta property="og:url" content="{{ site.baseurl }}" />
+    <meta property="og:url" content="{{ site.baseUrl }}" />
     <meta property="article:section" content="Sports" />
     <meta property="article:tag" content="Sports,Tournament,Game,Competition,Match,Team" />
-    <meta property="og:image" content="{{ site.baseurl }}/images/tournament_calendar.png" />
+    <meta property="og:image" content="{{ site.baseUrl }}/images/tournament_calendar.png" />
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:site" content="@tournamatic" />
     <meta name="twitter:creator" content="@adaplex" />
     <meta name="twitter:title" content="{{ page.title }}" />
     <meta name="twitter:description" content="TOURNAMATIC - {% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
-    <meta name="twitter:image" content="{{ site.baseurl }}/images/tournament_calendar.png">
+    <meta name="twitter:image" content="{{ site.baseUrl }}/images/tournament_calendar.png">
     
     <!--[if lt IE 9]>
       <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
 
-    <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/style.css" />
-    <link rel="alternate" type="application/rss+xml" title="{{ site.name }} - {{ site.description }}" href="{{ site.baseurl }}/feed.xml" />
+    <link rel="stylesheet" type="text/css" href="{{ site.baseUrl }}/style.css" />
+    <link rel="alternate" type="application/rss+xml" title="{{ site.name }} - {{ site.description }}" href="{{ site.baseUrl }}/feed.xml" />
 
     <!-- Created with Jekyll Now - http://github.com/barryclark/jekyll-now -->
-    <link rel="shortcut icon" href="{{ site.baseurl }}/images/favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="{{ site.baseUrl }}/images/favicon.ico" type="image/x-icon">
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
   </head>
 
@@ -42,10 +42,10 @@
         "@context": "http://schema.org",
         "@type": "Blog",
         "keywords": "Sports Tournament Fun Competition",
-        "url": "{{ site.baseurl }}",
+        "url": "{{ site.baseUrl }}",
         "mainEntityOfPage": {
           "@type": "WebPage",
-          "@id": "{{ site.baseurl }}"
+          "@id": "{{ site.baseUrl }}"
         },
         "author": {
           "@type": "Person",
@@ -60,16 +60,16 @@
     <div class="wrapper-masthead">
       <div class="container">
         <header class="masthead clearfix">
-          <a href="{{ site.baseurl }}/" class="site-avatar"><img src="{{ site.avatar }}" /></a>
+          <a href="{{ site.baseUrl }}/" class="site-avatar"><img src="{{ site.avatar }}" /></a>
           
           <div class="site-info">
-            <h1 class="site-name"><a href="{{ site.baseurl }}/">{{ site.name }}</a></h1>
+            <h1 class="site-name"><a href="{{ site.baseUrl }}/">{{ site.name }}</a></h1>
             <p class="site-description">{{ site.description }}</p>
           </div>
           
           <nav>
-            <a href="{{ site.baseurl }}/">Blog</a>
-            <a href="{{ site.baseurl }}/about">About</a>
+            <a href="{{ site.baseUrl }}/">Blog</a>
+            <a href="{{ site.baseUrl }}/about">About</a>
           </nav>
         </header>
       </div>

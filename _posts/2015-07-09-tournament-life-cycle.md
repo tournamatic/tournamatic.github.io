@@ -5,8 +5,8 @@ published: true
 description: Managing a tournament from inception to completion
 category: Sports
 tags:
-- tournament-lifecycle
-- tournament-planning
+    - tournament lifecycle
+    - tournament planning
 imageUrl: http://blog.tournamatic.com/images/tournament_cycle_hell.gif
 ---
 

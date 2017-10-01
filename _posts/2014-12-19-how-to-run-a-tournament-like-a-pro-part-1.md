@@ -5,8 +5,8 @@ published: true
 description: You may want to pick a proper date for your tournament so that you can increase participation
 category: Sports
 tags:
-- tournament-management
-- time-management
+    - tournament management
+    - time management
 imageUrl: http://blog.tournamatic.com/images/tournament_calendar.png
 excerpt_separator: <!--more-->
 ---

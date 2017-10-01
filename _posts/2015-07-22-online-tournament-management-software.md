@@ -5,9 +5,9 @@ published: true
 description: The benefits of an online tournament management software
 category: Sports
 tags:
-- tournament-management
-- tournament-planning
-- tournament-scheduling
+    - tournament management
+    - tournament planning
+    - tournament scheduling
 imageUrl: http://blog.tournamatic.com/images/fifa_tournament_standings.jpg
 ---
 

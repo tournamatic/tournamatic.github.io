@@ -5,10 +5,10 @@ published: true
 description: Finding sponsors for your tournaments
 category: Sports
 tags:
-- "tournament sponsorship"
-- "tournament financing"
-- "event sponsorship"
-- "sponsor tournament"
+- tournament-sponsorship
+- tournament-financing
+- event-sponsorship
+- sponsor-tournament
 excerpt_separator: <!--more-->
 ---
 

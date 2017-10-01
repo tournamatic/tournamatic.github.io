@@ -9,7 +9,7 @@ tags:
 - integration
 - widget
 - website
-- "tournament page"
+- tournament-page
 - embed
 imageUrl: https://i.imgur.com/uiMT9dh.png
 ---

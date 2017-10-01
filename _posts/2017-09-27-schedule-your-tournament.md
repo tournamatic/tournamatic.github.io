@@ -4,7 +4,13 @@ title: Schedule a tournament
 published: true
 description: Schedule your tournaments easily
 category: Sports
-tags: tournament scheduling competition formatting round-robin elimination bracket
+tags:
+- tournament
+- scheduling
+- competition formatting
+- round robin
+- elimination
+- bracket
 imageUrl: http://i.imgur.com/GsFPwlc.png
 ---
 
@@ -15,7 +21,7 @@ Scheduling a tournament can be a very tedious and time-consuming process.
 [Tournamatic](https://tournamatic.com) makes this process extremely easy for you.
 
 I am super excited to show you here how.
-
+<!--more-->
 First off, we assume that:
 
   1. You have created your tournament on Tournamatic.com.

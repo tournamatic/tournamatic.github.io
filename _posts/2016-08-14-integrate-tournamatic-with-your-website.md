@@ -4,7 +4,13 @@ title: Integrate Tournamatic within your website
 published: true
 description: Integrate your website with tournamatic.com and represent your tournaments like a pro.
 category: Sports
-tags: tournament integration widget website tournament-page embed
+tags:
+- tournament
+- integration
+- widget
+- website
+- tournament page
+- embed
 imageUrl: https://i.imgur.com/uiMT9dh.png
 ---
 
@@ -12,7 +18,7 @@ imageUrl: https://i.imgur.com/uiMT9dh.png
 ## Add the new Tournamatic widget to your website!
 
 Tournamatic makes it quick and easy to create a webpage for your tournament, complete with all of the information needed for a successful event. Using Tournamatic, you can share venue details with your participants and teams. You can also use the page to accept registration and payments for divisions or draws in the tournament from players, as well as have one easy place for participants and fans to access the tournament’s schedule and results. Creating a tournament page on Tournamatic offers you a ton of great features so you can organize and host an amazing tournament.
-
+<!--more-->
 But you may **already have a website** set up for your tournament, either as a stand-alone site or as part of your club or association’s page, which means you probably don’t need another one. That’s why we’ve built a brand new feature that allows you to add a Tournamatic widget to your site! Once you’ve set up your tournament on [Tournamatic](https://tournamatic.com), you can add the Tournamatic widget anywhere on your website. The widget will allow you to reap the benefits of our powerful tournament management engine while also creating a seamless experience for your users. Both you and your users will be able to take advantage of all of Tournamatic’s services, directly from within your own site.
 
 [Add your tournament to your own website](https://i.imgur.com/uiMT9dh.png)

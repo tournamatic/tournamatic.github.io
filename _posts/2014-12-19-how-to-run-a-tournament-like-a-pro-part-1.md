@@ -4,8 +4,11 @@ title: Pick a proper date for your tournament
 published: true
 description: You may want to pick a proper date for your tournament so that you can increase participation
 category: Sports
-tags: tournament management time-management
+tags:
+- tournament management
+- time management
 imageUrl: http://blog.tournamatic.com/images/tournament_calendar.png
+excerpt_separator: <!--more-->
 ---
 
 ## How to run a tournament like a pro
@@ -15,6 +18,8 @@ imageUrl: http://blog.tournamatic.com/images/tournament_calendar.png
 Unless you are running an annual tournament like a Labour day weekend or New year's classic, you need to pick an start-date and an end-date for your tournament. 
 Picking the right dates for your tournament is extremely important, especially if you are planning to increase the participation level.
 I am going to share a few tips here regarding the tournament dates so that before you start circling the days on your calendar you have a check-list to run through.
+
+<!--more-->
 
 ![](/images/tournament_calendar.png)
 

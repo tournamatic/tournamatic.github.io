@@ -4,13 +4,18 @@ title: Tournament Sponsors
 published: true
 description: Finding sponsors for your tournaments
 category: Sports
-tags: tournament sponsorship financing event
+tags:
+- tournament sponsorship
+- tournament financing
+- event sponsorship
+- sponsor tournament
+excerpt_separator: <!--more-->
 ---
 
 ## Part II :: Find Sponsors
 
 Maybe you want to get sponsorships and have tried before without success. Maybe you want to get companies to support your tournament, but don't have experience landing deals. Getting a business to sponsor your next tournament is much easier than you think.
-
+<!--more-->
 You don't have to be lucky or anyone special, it's putting in effort and using techniques that actually work.
 
 

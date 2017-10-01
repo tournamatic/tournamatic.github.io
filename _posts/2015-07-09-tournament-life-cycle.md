@@ -1,8 +1,13 @@
 ---
+layout: post
+title: A tournament's life-cycle
 published: true
+description: Managing a tournament from inception to completion
+category: Sports
+imageUrl: http://blog.tournamatic.com/images/tournament_cycle_hell.gif
 ---
 
-## The tournament life-cycle: managing from inception to completion
+## A tournament's life-cycle: managing from inception to completion
 
 There are a lot of things to take into consideration when organizing a sports tournament. From the beginning stages of planning, to the execution of the event, to the final stages of completion, tournament organizers must be prepared to manage the entire tournament life-cycle.
 

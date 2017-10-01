@@ -1,5 +1,9 @@
 ---
+layout: post
+title: Tournament Sponsors
 published: true
+description: Finding sponsors for your tournaments
+category: Sports
 ---
 
 ## Part II :: Find Sponsors

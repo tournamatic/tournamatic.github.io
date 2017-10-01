@@ -1,5 +1,10 @@
 ---
+layout: post
+title: Online Tournament Software
 published: true
+description: Tournament software that makes organizing sports tournaments a whole lot easier
+category: Sports
+imageUrl: http://blog.tournamatic.com/images/site-homepage.png
 ---
 
 

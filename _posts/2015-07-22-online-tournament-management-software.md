@@ -9,6 +9,7 @@ tags:
     - tournament planning
     - tournament scheduling
 imageUrl: http://blog.tournamatic.com/images/fifa_tournament_standings.jpg
+excerpt_separator: <!--more-->
 ---
 
 

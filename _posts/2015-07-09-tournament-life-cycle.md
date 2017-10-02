@@ -8,6 +8,7 @@ tags:
     - tournament lifecycle
     - tournament planning
 imageUrl: http://blog.tournamatic.com/images/tournament_cycle_hell.gif
+excerpt_separator: <!--more-->
 ---
 
 ## A tournament's life-cycle: managing from inception to completion

@@ -12,6 +12,7 @@ tags:
 	- tournament page
 	- embed
 imageUrl: https://i.imgur.com/uiMT9dh.png
+excerpt_separator: <!--more-->
 ---
 
 

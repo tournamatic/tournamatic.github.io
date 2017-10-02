@@ -12,6 +12,7 @@ tags:
  - elimination
  - bracket
 imageUrl: http://i.imgur.com/GsFPwlc.png
+excerpt_separator: <!--more-->
 ---
 
 ## Schedule a tournament

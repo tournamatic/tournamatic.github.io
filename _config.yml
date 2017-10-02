@@ -48,6 +48,7 @@ url: http://blog.tournamatic.com
 # then add in the baseurl here, like this: "/repository-name"
 baseurl: ""
 ampdir: "amp"
+
 #
 # !! You don't need to change any of the configuration flags below !!
 #

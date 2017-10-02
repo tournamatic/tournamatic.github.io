@@ -5,12 +5,12 @@ published: true
 description: Integrate your website with tournamatic.com and represent your tournaments like a pro.
 category: Sports
 tags:
-	- tournament
-	- integration
-	- widget
-	- website
-	- tournament page
-	- embed
+  - tournament
+  - integration
+  - widget
+  - website
+  - tournament page
+  - embed
 imageUrl: https://i.imgur.com/uiMT9dh.png
 excerpt_separator: <!--more-->
 ---

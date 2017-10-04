@@ -1,10 +1,10 @@
 
-<script type="application/ld+json">
-    {
-      "@context": "http://schema.org",
-      "@type": "ItemList",
-      "itemListElement": [
-        {{ items }}
-      ]
-    }
-</script>
+{%
+  include structdata.html
+  headline=page.title
+  genre=page.category
+  keywords=page.keywords
+  content=page.content
+  link=page.permalink
+  date=page.date
+%}

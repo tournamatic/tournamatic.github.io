@@ -4,19 +4,42 @@ comments: true
 title: Blog
 ---
 
+{% assign items = "" %}
 <ul class="post-list">
-	{% for post in site.posts %}
-	  <li>
-		<h2>
-		  <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-		</h2>
+  {% for post in site.posts %}
+    <li>
+      <h2>
+        <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+      </h2>
 		  <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-		<p class="description">
-			{% if post.description %}
-				{{ post.description | strip_html | strip_newlines | truncate: 250 }}
-			{% else %}
-				{{ post.content | strip_html | strip_newlines | truncate: 250 }}
-			{% endif %}</p>
-	  </li>
-	{% endfor %}
+      <p class="description">
+        {% if post.description %}
+          {{ post.description | strip_html | strip_newlines | truncate: 250 }}
+        {% else %}
+          {{ post.content | strip_html | strip_newlines | truncate: 250 }}
+        {% endif %}
+      </p>
+    </li>
+    {% capture list_item %}
+      {%
+          include blogListItem.html
+          index=forloop.index
+          url=post.url
+          title=post.title
+          date=post.date
+      %}
+    {% endcapture %}
+    {% assign items = items | append: list_item | append: "|||" %}
+  {% endfor %} 
+  {% assign items = items | split: "|||" | join: ',' %}
 </ul>
+<script type="application/ld+json">
+  {
+    "@context": "http://schema.org",
+    "@type": "ItemList",
+    "itemListElement": [
+      {{ items }}
+    ]
+  }
+</script>
+  

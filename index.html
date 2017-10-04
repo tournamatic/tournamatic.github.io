@@ -1,10 +1,10 @@
 ---
 layout: default
 comments: true
-title: Tournamatic
+title: Blog
 ---
 
-<div class="posts">
+<div class="posts post-list">
   {% assign items = "" %}
   {% for post in site.posts %}
     {% capture list_item %}
@@ -37,7 +37,7 @@ title: Tournamatic
         {{ post.excerpt }}
       </div>
       <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
-      <div class="date">
+      <div class="date post-meta">
         Written on {{ post.date | date: "%B %e, %Y" }}
         </div>
       

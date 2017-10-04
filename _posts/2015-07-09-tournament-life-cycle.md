@@ -7,7 +7,7 @@ category: Sports
 tags:
     - tournament lifecycle
     - tournament planning
-imageUrl: http://blog.tournamatic.com/images/tournament_cycle_hell.gif
+imageUrl: http://blog.tournamatic.com/assets/img/tournament_cycle_hell.gif
 excerpt_separator: <!--more-->
 ---
 
@@ -15,7 +15,7 @@ excerpt_separator: <!--more-->
 
 There are a lot of things to take into consideration when organizing a sports tournament. From the beginning stages of planning, to the execution of the event, to the final stages of completion, tournament organizers must be prepared to manage the entire tournament life-cycle.
 <!--more-->
-![](/images/tournament_cycle_hell.gif)
+![](/assets/img/tournament_cycle_hell.gif)
 
 There are three main phases of any tournament, whether it be a tournament for soccer, hockey, tennis, football, baseball, basketball, or any other sport. Each phase has different components and requires various resources, but every phase is crucial to the success of the event. These three phases consist of:
 

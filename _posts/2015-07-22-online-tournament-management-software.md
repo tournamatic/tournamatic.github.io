@@ -8,7 +8,7 @@ tags:
     - tournament management
     - tournament planning
     - tournament scheduling
-imageUrl: http://blog.tournamatic.com/images/fifa_tournament_standings.jpg
+imageUrl: http://blog.tournamatic.com/assets/img/fifa_tournament_standings.jpg
 excerpt_separator: <!--more-->
 ---
 
@@ -17,7 +17,7 @@ excerpt_separator: <!--more-->
 
 If you’ve ever attempted to organize a tournament of any sort, you probably know that it requires a lot of work. Whether it’s for organized team sports like soccer, hockey, basketball, volleyball, softball, etc., or for individual or paired competitions like tennis, badminton, or squash, taking the time and effort to manage a tournament’s life-cycle can often be overwhelming. That’s why we’ve created the perfect solution to help you organize and host a tournament effectively. 
 <!--more-->
-![](/images/fifa_tournament_standings.jpg)
+![](/assets/img/fifa_tournament_standings.jpg)
 
 [Tournamatic](https://www.tournamatic.com) is a platform that greatly simplifies the management of a tournament’s life cycle. It streamlines and automates some of the most complex and time-consuming pieces of tournament organization, such as promotion, payment collection, scheduling, and communication. Once the basics of the event have been established (the when and where, in particular), organizers can use Tournamatic’s management features to execute their plans in the most efficient way possible.
 

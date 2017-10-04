@@ -7,7 +7,7 @@ category: Sports
 tags:
     - tournament management
     - time management
-imageUrl: http://blog.tournamatic.com/images/tournament_calendar.png
+imageUrl: http://blog.tournamatic.com/assets/img/tournament_calendar.png
 excerpt_separator: <!--more-->
 ---
 
@@ -21,7 +21,7 @@ I am going to share a few tips here regarding the tournament dates so that befor
 
 <!--more-->
 
-![](/images/tournament_calendar.png)
+![](/assets/img/tournament_calendar.png)
 
 
 1. Be aware of competing tournaments, school schedules, religious holidays and cultural events to maximize the interest and attendance. We really hope that as [tournamatic](https://www.tournamatic.com "tournamatic") grows as a popular platform, it can become a reference point for discovering the competing tournaments.

@@ -1,10 +1,21 @@
-
-{%
-  include structdata.html
-  headline=page.title
-  genre=page.category
-  keywords=page.keywords
-  content=page.content
-  link=page.permalink
-  date=page.date
-%}
+{
+  "@context":"http://schema.org",
+  "@type": "ListItem",
+  "position": {{ include.index }},
+  "item":
+  {
+    "@context":"http://schema.org",
+    "@type":"BlogPosting",
+    "url":"{{ include.url }}",
+    "datePublished":"{{ include.date | | date: '%Y-%m-%d' }}",
+    "dateModified":"{{ include.date | | date: '%Y-%m-%d' }}",
+    "author": {
+        "@type": "Person",
+        "name": "Dan Bonab",
+        "sameAs": [
+            "https://twitter.com/innopal",
+            "https://github.com/innopal"
+        ]
+    },
+  }
+}

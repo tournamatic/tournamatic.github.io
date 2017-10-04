@@ -6,8 +6,17 @@ title: Blog
 
 {% assign items = "" %}
 <ul class="post-list">
-  {% for post in site.posts %}
-    <li>
+  {% for post in site.posts %}  
+  {%
+    include structdata.html
+    headline=page.title
+    genre=page.category
+    keywords=page.keywords
+    content=page.content
+    link=page.permalink
+    date=page.date
+  %}  
+  <li>
       <h2>
         <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
       </h2>

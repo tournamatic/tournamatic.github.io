@@ -7,7 +7,7 @@
     "@context":"http://schema.org",
     "@type":"BlogPosting",
     "headline":"{{ include.title }}",
-    "url":"{{ include.url }}",
+    "url":"{{ include.baseUrl }}{{ include.url }}",
     "datePublished":"{{ include.date | | date: '%Y-%m-%d' }}",
     "dateModified":"{{ include.date | | date: '%Y-%m-%d' }}",
     "author": {
@@ -28,7 +28,7 @@
       "logo": {
           "@type": "ImageObject",
           "contentUrl": "{{ include.baseUrl }}/assets/img/logo.png",
-          "url": "https://tournamatic.com"
+          "url": "{{ include.baseUrl }}{{ include.url }}"
       }
     },
     "image":{

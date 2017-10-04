@@ -5,7 +5,7 @@
   {
     "@type":"BlogPosting",
     "headline":"{{ include.title }}",
-    "url":"{{ include.baseUrl }}{{ include.url }}",
+    "url":"{{ include.url }}",
     "datePublished":"{{ include.date | | date: '%Y-%m-%d' }}",
     "dateModified":"{{ include.date | | date: '%Y-%m-%d' }}",
     "author": {
@@ -25,20 +25,20 @@
       ],
       "logo": {
           "@type": "ImageObject",
-          "contentUrl": "{{ include.baseUrl }}/assets/img/logo.png",
-          "url": "{{ include.baseUrl }}{{ include.url }}"
+          "contentUrl": "/assets/img/logo.png",
+          "url": "{{ include.url }}"
       }
     },
     "image":{
         "@type":"ImageObject",
         "contentUrl":"{{ include.imageUrl }}",
-        "url": "{{ include.baseUrl }}{{ include.url }}",
+        "url": "{{ include.url }}",
         "height":"450",
         "width":"1000"
     },
     "mainEntityOfPage":{
         "@type":"WebPage",
-        "@id":"{{ include.baseUrl }}{{ include.url }}"
+        "@id":"{{ include.url }}"
     },
     "name": "{{ include.title }}"
   }

@@ -9,14 +9,14 @@ title: Blog
   {% for post in site.posts %}  
   {%
     include structdata.html
-    headline=page.title
-    genre=page.category
-    keywords=page.keywords
-    content=page.content
-    link=page.permalink
-    baseUrl=page.baseUrl
-    imageUrl=page.imageUrl
-    date=page.date
+    headline=post.title
+    genre=post.category
+    keywords=post.keywords
+    content=post.content
+    link=post.permalink
+    baseUrl=site.url
+    imageUrl=post.imageUrl
+    date=post.date
   %}  
   <li>
       <h2>
@@ -36,7 +36,7 @@ title: Blog
           include blogListItem.html
           index=forloop.index
           url=post.url
-          baseUrl=page.baseUrl
+          baseUrl=site.url
           imageUrl=post.imageUrl
           title=post.title
           date=post.date

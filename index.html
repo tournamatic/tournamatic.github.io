@@ -4,50 +4,19 @@ comments: true
 title: Blog
 ---
 
-<div class="posts post-list">
-  {% assign items = "" %}
-  {% for post in site.posts %}
-    {% capture list_item %}
-      {%
-          include blogListItem.html
-          index=forloop.index
-          url=post.url
-          title=post.title
-          date=post.date
-      %}
-    {% endcapture %}
-    {% assign items = items | append: list_item | append: "|||" %}  
-    <article class="post">    
-      {%
-        include structdata.html
-        headline=post.title
-        genre=post.category
-        keywords=post.tags
-        content=post.content
-        link=post.url
-        date=post.date
-        imageUrl=post.imageUrl
-        baseUrl=site.url
-      %}
-      
-      <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
-      {% include share-bar.html %}
-      
-      <div class="entry">
-        {{ post.excerpt }}
-      </div>
-      <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
-      <div class="date post-meta">
-        Written on {{ post.date | date: "%B %e, %Y" }}
-        </div>
-      
-        <div class="disqus">
-          {% include disqus.html %}
-        </div>
-      
-    </article>
-    
-  {% endfor %}
-
-  {% assign items = items | split: "|||" | join: ',' %}
-</div>
+<ul class="post-list">
+	{% for post in site.posts %}
+	  <li>
+		<h2>
+		  <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+		</h2>
+		  <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+		<p class="description">
+			{% if post.description %}
+				{{ post.description | strip_html | strip_newlines | truncate: 250 }}
+			{% else %}
+				{{ post.content | strip_html | strip_newlines | truncate: 250 }}
+			{% endif %}</p>
+	  </li>
+	{% endfor %}
+</ul>

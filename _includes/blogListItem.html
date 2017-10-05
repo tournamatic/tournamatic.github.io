@@ -1,45 +1,13 @@
 {
   "@type": "ListItem",
   "position": {{ include.index }},
-  "item":
-  {
-    "@type":"BlogPosting",
-    "headline":"{{ include.title }}",
-    "url":"{{ include.url }}",
-    "datePublished":"{{ include.date | | date: '%Y-%m-%d' }}",
-    "dateModified":"{{ include.date | | date: '%Y-%m-%d' }}",
-    "author": {
-        "@type": "Person",
-        "name": "Dan Bonab",
-        "sameAs": [
-            "https://twitter.com/innopal",
-            "https://github.com/innopal"
-        ]
-    },
-    "publisher":{
-      "@type": "Organization",
-      "name": "tournamatic",
-      "sameAs": [
-          "https://twitter.com/tournamatic",
-          "https://github.com/tournamatic"
-      ],
-      "logo": {
-          "@type": "ImageObject",
-          "contentUrl": "/assets/img/logo.png",
-          "url": "{{ include.url }}"
-      }
-    },
-    "image":{
-        "@type":"ImageObject",
-        "contentUrl":"{{ include.imageUrl }}",
-        "url": "{{ include.url }}",
-        "height":"450",
-        "width":"1000"
-    },
-    "mainEntityOfPage":{
-        "@type":"WebPage",
-        "@id":"{{ include.url }}"
-    },
-    "name": "{{ include.title }}"
+  "name": "{{ include.title }}",
+  "url": "{{ include.baseUrl }}{{ include.url }}",
+  "image":{
+    "@type":"ImageObject",
+    "contentUrl":"{{ include.imageUrl }}",
+    "url": "{{ include.baseUrl }}{{ include.url }}",
+    "height":"450",
+    "width":"1000"
   }
 }

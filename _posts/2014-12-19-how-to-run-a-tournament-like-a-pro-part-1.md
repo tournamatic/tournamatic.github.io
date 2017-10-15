@@ -2,6 +2,7 @@
 layout: post
 title: Pick a proper date for your tournament
 published: true
+author: blogauthor
 description: You may want to pick a proper date for your tournament so that you can increase participation
 category: Sports
 tags:

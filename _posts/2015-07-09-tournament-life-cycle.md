@@ -2,6 +2,7 @@
 layout: post
 title: A tournament's life-cycle
 published: true
+author: blogauthor
 description: Managing a tournament from inception to completion
 category: Sports
 tags:

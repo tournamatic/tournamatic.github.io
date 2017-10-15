@@ -2,6 +2,7 @@
 layout: post
 title: Integrate Tournamatic within your website
 published: true
+author: blogauthor
 description: Integrate your website with tournamatic.com and represent your tournaments like a pro.
 category: Sports
 tags:

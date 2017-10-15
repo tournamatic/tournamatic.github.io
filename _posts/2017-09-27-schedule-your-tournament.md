@@ -2,6 +2,7 @@
 layout: post
 title: Schedule a tournament
 published: true
+author: blogauthor
 description: Schedule your tournaments easily
 category: Sports
 tags:

@@ -32,19 +32,30 @@
       {
         "@context": "http://schema.org",
         "@type": "Blog",
+        "datePublished": "{{ page.date }}",
+        "dateModified": "{{ page.date }}",
         "keywords": "Sports Tournament Fun Competition",
-        "url": "{{ site.url }}",
+        "url": "{{ page.url }}",
         "mainEntityOfPage": {
           "@type": "WebPage",
-          "@id": "{{ site.url }}"
+          "@id": "{{ page.url }}"
         },
-        "author": {
-          "@type": "Person",
-          "name": "Dan Bonab",
-          "sameAs": [
-            "https://twitter.com/innopal",
-            "https://github.com/innopal"
-          ]
+        "author": {{ site.blogauthor }},
+        "publisher": {
+          "@type": "Organization",
+          "name": "{{ site.name }}",
+          "logo": {
+            "@type": "ImageObject",
+            "url": "{{ site.url }}/favicon.png",
+            "height": "142",
+            "width": "128"            
+          }
+        },
+        "image": {
+          "@type": "ImageObject",
+          "url": "{{ site.url }}/favicon.png",
+          "height": "142",
+          "width": "128"            
         }
       }
     </script>

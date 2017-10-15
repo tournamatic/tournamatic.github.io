@@ -2,6 +2,7 @@
 layout: post
 title: Online Tournament Software
 published: true
+author: blogauthor
 description: Tournament software that makes organizing sports tournaments a whole lot easier
 category: Sports
 tags:

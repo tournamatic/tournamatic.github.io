@@ -2,6 +2,7 @@
 layout: post
 title: Tournament Sponsors
 published: true
+author: blogauthor
 description: Finding sponsors for your tournaments
 category: Sports
 tags:

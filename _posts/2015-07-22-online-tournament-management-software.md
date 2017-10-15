@@ -2,6 +2,7 @@
 layout: post
 title: Online tournament management software
 published: true
+author: blogauthor
 description: The benefits of an online tournament management software
 category: Sports
 tags:

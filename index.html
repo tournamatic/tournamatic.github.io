@@ -4,20 +4,7 @@ comments: true
 title: Blog
 ---
 
-{% assign items = "" %}
 <ul class="post-list">
-  {% for post in site.posts %}  
-  {%
-    include structdata.html
-    headline=post.title
-    genre=post.category
-    keywords=post.keywords
-    content=post.content
-    link=post.permalink
-    baseUrl=site.url
-    imageUrl=post.imageUrl
-    date=post.date
-  %}  
   <li>
       <h2>
         <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
@@ -31,27 +18,4 @@ title: Blog
         {% endif %}
       </p>
     </li>
-    {% capture list_item %}
-      {%
-          include blogListItem.html
-          index=forloop.index
-          url=post.url
-          baseUrl=site.url
-          imageUrl=post.imageUrl
-          title=post.title
-      %}
-    {% endcapture %}
-    {% assign items = items | append: list_item | append: "|||" %}
-  {% endfor %} 
-  {% assign items = items | split: "|||" | join: ',' %}
 </ul>
-<script type="application/ld+json">
-  {
-    "@context": "http://schema.org",
-    "@type": "ItemList",
-    "itemListElement": [
-      {{ items }}
-    ]
-  }
-</script>
-  

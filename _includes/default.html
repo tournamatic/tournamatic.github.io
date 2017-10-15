@@ -32,26 +32,42 @@
       {
         "@context": "http://schema.org",
         "@type": "Blog",
+        "datePublished": "{{ page.date }}",
+        "dateModified": "{{ page.date }}",
         "keywords": "Sports Tournament Fun Competition",
-        "url": "{{ site.url }}",
+        "url": "{{ page.url }}",
         "mainEntityOfPage": {
           "@type": "WebPage",
-          "@id": "{{ site.url }}"
+          "@id": "{{ page.url }}"
         },
         "author": {
           "@type": "Person",
-          "name": "Dan Bonab",
-          "sameAs": [
-            "https://twitter.com/innopal",
-            "https://github.com/innopal"
-          ]
+          "name": "Tournamatic Blog",
+          "email": "blog@tournamatic.com",
+          "image": "https://avatars2.githubusercontent.com/u/9289973?v=3&s=460"
+        },
+        "publisher": {
+          "@type": "Organization",
+          "name": "Tournamatic Blog",
+          "logo": {
+            "@type": "ImageObject",
+            "url": "{{ site.baseurl }}/favicon.png",
+            "height": "142",
+            "width": "128"            
+          }
+        },
+        "image": {
+          "@type": "ImageObject",
+          "url": "{{ site.baseurl }}/favicon.png",
+          "height": "142",
+          "width": "128"            
         }
       }
     </script>
     {% if page.avatar %}{% include header.html avatar="true" %} {% else %} {% include header.html %} {% endif %}
     <div class="page-content {% if page.layout == 'default-author' %}default{%endif%}">
       <div class="wrapper">
-        {{ content | replace: '<img', '<amp-img layout="responsive"' }}
+        {{ content | replace: '<img', '<amp-img height="218" width="718" layout="responsive"' }}
       </div>
     </div>
     {% include footer.html %}

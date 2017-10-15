@@ -3,6 +3,7 @@ layout: post
 title: Schedule a tournament
 published: true
 author: blogauthor
+publisher: blogauthor
 description: Schedule your tournaments easily
 category: Sports
 tags:
@@ -13,6 +14,10 @@ tags:
  - elimination
  - bracket
 imageUrl: http://i.imgur.com/GsFPwlc.png
+image:
+  path: http://i.imgur.com/GsFPwlc.png
+  height: 338
+  width: 378
 excerpt_separator: <!--more-->
 ---
 

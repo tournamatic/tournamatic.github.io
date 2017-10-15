@@ -35,7 +35,11 @@ gems:
   - jemoji
 
 defaults:
-    - {scope: {type: posts}, values: {layout: post, permalink: '/:title'}}
+  - {scope: {type: posts}, values: {layout: post, permalink: '/:title'}}
+  - scope:
+      path: ""
+    values:
+      image: /assets/img/tournament_calendar.png
 
 include:
   - _pages

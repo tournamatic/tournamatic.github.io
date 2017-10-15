@@ -9,7 +9,15 @@ layout: default
         {{ page.date | date: "%b %-d, %Y" }}
       </time>
       {% if page.author %} • <span itemprop="author" itemscope itemtype="http://schema.org/Person">
-        <span itemprop="name">{{ page.author }}</span>
+        <span itemprop="name">{{ page.author.name }}</span>
+        <meta itemprop="email" content="{{ page.author.email }}" />
+        <meta itemprop="image" content="{{ page.author.image }}" />
+        {% if page.author.email %}
+        <a
+          class="fa fa-envelope"
+          title="Email us"
+          href="mailto:{{ page.author.email }}">&nbsp;</a>
+        {% endif %}
       </span>
       <span itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
         <meta itemprop="name" content="{{ site.name }}" />

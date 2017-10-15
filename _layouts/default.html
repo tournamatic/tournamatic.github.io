@@ -40,7 +40,13 @@
           "@type": "WebPage",
           "@id": "{{ page.url }}"
         },
-        "author": {{ site.blogauthor }},
+        "author": {
+          "@type": "Person",
+          "name": "Tournamatic Blog",
+          "email": "blog@tournamatic.com",
+          "web": "http://blog.tournamatic.com",
+          "image": "https://avatars2.githubusercontent.com/u/9289973?v=3&s=460"
+        },
         "publisher": {
           "@type": "Organization",
           "name": "{{ site.name }}",

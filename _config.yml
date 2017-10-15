@@ -19,7 +19,7 @@ facebook:
   publisher: tournamatic
 
 sass:
-    style: compressed
+  style: compressed
 
 # Build settings
 markdown: kramdown

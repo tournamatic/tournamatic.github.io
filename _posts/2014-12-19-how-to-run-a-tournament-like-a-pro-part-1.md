@@ -9,6 +9,10 @@ tags:
     - tournament management
     - time management
 imageUrl: http://blog.tournamatic.com/assets/img/tournament_calendar.png
+image:
+  path: http://blog.tournamatic.com/assets/img/tournament_calendar.png
+  height: 378
+  width: 722
 excerpt_separator: <!--more-->
 ---
 

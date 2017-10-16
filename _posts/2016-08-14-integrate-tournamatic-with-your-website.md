@@ -13,6 +13,10 @@ tags:
   - tournament page
   - embed
 imageUrl: https://i.imgur.com/uiMT9dh.png
+image:
+  path: https://i.imgur.com/uiMT9dh.png
+  height: 378
+  width: 386
 excerpt_separator: <!--more-->
 ---
 

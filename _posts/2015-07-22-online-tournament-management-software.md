@@ -10,6 +10,10 @@ tags:
     - tournament planning
     - tournament scheduling
 imageUrl: http://blog.tournamatic.com/assets/img/fifa_tournament_standings.jpg
+image:
+  path: http://blog.tournamatic.com/assets/img/fifa_tournament_standings.jpg
+  height: 378
+  width: 396
 excerpt_separator: <!--more-->
 ---
 

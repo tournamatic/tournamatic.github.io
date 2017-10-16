@@ -9,6 +9,10 @@ tags:
     - tournament lifecycle
     - tournament planning
 imageUrl: http://blog.tournamatic.com/assets/img/tournament_cycle_hell.gif
+image:
+  path: http://blog.tournamatic.com/assets/img/tournament_cycle_hell.gif
+  height: 378
+  width: 433
 excerpt_separator: <!--more-->
 ---
 

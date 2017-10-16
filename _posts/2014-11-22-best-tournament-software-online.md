@@ -9,6 +9,10 @@ tags:
     - tournament software
     - online tournament software
 imageUrl: http://blog.tournamatic.com/assets/img/site-homepage.png
+image:
+  path: http://blog.tournamatic.com/assets/img/site-homepage.png
+  height: 378
+  width: 686
 excerpt_separator: <!--more-->
 ---
 

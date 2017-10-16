@@ -30,13 +30,16 @@ layout: default
           href="mailto:{{ author.email }}">&nbsp;</a>
         {% endif %}
       </span>
-      <span itemprop="publisher" itemscope itemtype="http://schema.org/Person">
-        <meta itemprop="name" content="{{ author.name }}" />
-        <meta itemprop="email" content="{{ author.email }}" />
-        <meta itemprop="image" content="{{ author.image }}" />
+      <span itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+        <meta itemprop="name" content="{{ site.publisher }}" />
+        <span itemprop="logo" itemscope itemtype="http://schema.org/ImageObject">
+          <meta itemprop="url" content="{{ site.url }}/favicon.png" />
+          <meta itemprop="height" content="142" />
+          <meta itemprop="width" content="128" />
+        </span>
       </span>
       {% endif %}
-      <meta itemprop="mainEntityOfPage" content="{{ site.url }}" />
+      <meta itemprop="mainEntityOfPage" content="{{ page.url }}" />
       <span itemprop="image" itemscope itemtype="http://schema.org/ImageObject">
         <meta itemprop="url" content="{{ site.url }}/favicon.png" />
         <meta itemprop="height" content="142" />

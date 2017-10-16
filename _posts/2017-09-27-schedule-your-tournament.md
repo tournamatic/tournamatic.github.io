@@ -13,6 +13,7 @@ tags:
  - elimination
  - bracket
 imageUrl: http://i.imgur.com/GsFPwlc.png
+logo: /favicon.png
 image:
   path: http://i.imgur.com/GsFPwlc.png
   height: 338

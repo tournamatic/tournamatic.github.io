@@ -11,7 +11,10 @@ title: Blog
       <h2>
         <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
       </h2>
-		  <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+      <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+      <div class="wrapper">
+        {{ post.content | replace: '<img', '<amp-img height="218" width="718" layout="responsive"' }}
+      </div>
       <p class="description">
         {% if post.description %}
           {{ post.description | strip_html | strip_newlines | truncate: 250 }}

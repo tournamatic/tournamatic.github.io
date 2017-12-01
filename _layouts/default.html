@@ -58,7 +58,7 @@
     {% if page.avatar %}{% include header.html avatar="true" %} {% else %} {% include header.html %} {% endif %}
     <div class="page-content {% if page.layout == 'default-author' %}default{%endif%}">
       <div class="wrapper">
-        {{ content | replace: '<img', '<amp-img height="218" width="718" layout="responsive"' }}
+        {{ content | replace: '<img', '<amp-img height="800" width="1200" layout="responsive"' }}
       </div>
     </div>
     {% include footer.html %}

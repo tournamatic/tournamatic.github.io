@@ -20,8 +20,6 @@ image:
 excerpt_separator: <!--more-->
 ---
 
-## Livin' the Dream - Tournament Organizer of the Month
-
 Tournamatic was built with the goal of making tournament hosting an easier process for hosts and participants alike. Over the years, we've had the privilege of assisting many inspirational and amazing organizations to host various tournaments in their communities. We want to shine a spotlight on some of these organizations as part of our new blog series featuring a Tournament Organizer of the Month.
 Our first feature post in this series is about Livin' the Dream, a non-profit organization that used the Tournamatic platform to help host a fundraising volleyball tournament this November. With 10 teams participating, around 60 young people playing, and over 100 fans coming to watch throughout the day, the tournament helped raise money for Livin' the Dream's long-term goal of purchasing their own sports facility.
 "Our goal was to put on a great tournament that engaged the community and helped young people have fun in a positive environment." -Louis, Livin' the Dream

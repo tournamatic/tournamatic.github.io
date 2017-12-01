@@ -27,14 +27,14 @@ Our first feature post in this series is about Livin' the Dream, a non-profit or
 "Our goal was to put on a great tournament that engaged the community and helped young people have fun in a positive environment." -Louis, Livin' the Dream
 <!--more-->
 
-![Tournament Participants in action](http://blog.tournamatic.com/assets/img/setbump-min.jpg)
+![alt text](http://blog.tournamatic.com/assets/img/setbump-min.jpg "Tournament Participants in action")
 
 We had a chance to talk to Louis Diesel, tournament host, and the man organizing a lot of the behind the scenes action at Livin' the Dream, to find out more about the organization.
 ### What is Livin' the Dream?
 Livin' the Dream is a non-profit organization based in the Lehigh Valley of Eastern Pennsylvania in the United States. Established in memory of Mark Guensch, a young man who tragically lost his life in a drunk driving accident at just 19 years of age, the organization's main efforts are focused on providing youth in the region with the support and space they need to thrive in what is often a tumultuous period of life.
 The organization's goals center around providing good, clean fun for youth in the region. Active since 2014, Livin' the Dream offers a space and activities for high schoolers and other young people where they can gather to meet new people, make new friends, and participate in safe and wholesome activities that combat the peer pressure adolescents often feel at this critical age in development. Driven by Christian values that encourage loving, valuing, and caring for one another, the organization also provides youth with a more approachable understanding of faith and moral values. Through short "Halftime Talks" from peers that volunteer with the organization, attendees at Livin' the Dream events learn about scriptures and verses from the Bible that can be applied in useful ways to their everyday life.
 
-![Halftime talks](http://blog.tournamatic.com/assets/img/halftimetalk-min.jpg)
+![alt text](http://blog.tournamatic.com/assets/img/halftimetalk-min.jpg "Halftime talks")
 
 ### Why Livin' the Dream was founded
 Adolescence is a difficult period of life for most people. The changes occurring within our bodies, as well as the changes occurring within our lives, are often difficult to process, especially when we lack the support to do so in a healthy and mature way. This is why many youth going through this period of their lives are susceptible to making poor choices, especially with regard to underage drinking and/or drug use, that can have detrimental lasting effects. In some cases, these poor choices can lead to terrible consequences, as was the case with Mark.
@@ -42,7 +42,7 @@ After dealing with his tragic loss at such an early age in life, Mark's parents 
 What does Livin' the Dream do?
 Livin' the Dream hosts weekly open gym nights for high schoolers and young adults, with activities like ping pong, tabletop and video games, football, soccer, dodgeball, volleyball, and basketball offered throughout the year. They also host occasional fundraising events, like their recent volleyball tournament, their ongoing Grace Campaign, and outdoor music events to engage with more young people and make a bigger impact in the area.
 
-![High flying](http://blog.tournamatic.com/assets/img/hops-min.jpg)
+![alt text](http://blog.tournamatic.com/assets/img/hops-min.jpg "High flying")
 
 By giving youth in the Lehigh Valley free access to a facility and the chance to develop strong, positive, and supportive relationships with other peers, as well as inspirational volunteer mentors, the aim of the organization is to encourage young people to connect, develop, and pursue their dreams in a positive and healthy way. The foundation's main goal at the moment is to eventually purchase their own facility, opening up a community center that will provide free of charge activities for more students and youth in the area on a more frequent basis.
 
